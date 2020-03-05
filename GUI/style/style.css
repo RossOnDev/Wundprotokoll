@@ -1,0 +1,17 @@
+body{
+    min-height: 100%;
+    background-color: #004B50;
+}
+
+.container{
+    margin: 0;
+}
+
+.patientlist{
+    background-color: rgba(57, 57, 57, .3);
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
