@@ -4,19 +4,58 @@
         <meta charset="utf-8">
         <title>Wundprotokoll</title>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="style/style.css">
     </head>
     <body>
-        <div class="container w-100">
+        <div class="main">
             <div class="row">
-                <div class="col-9 patientlist">
-                    <h1>Patientenliste</h1>>
+                <div class="col-7">
+                    <div class="patientList">
+                        <h1>Patientenliste</h1>
+
+                        <table class="table">
+                            <thead class="thead-custom">
+                                <tr>
+                                    <th style="text-align: center">#</th>
+                                    <th>Name</th>
+                                    <th style="text-align: center">cm²</th>
+                                    <th style="text-align: center">Diff</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+                    </div>
                 </div>
-                <div class="col patientinput">
-                    <h1>Neuer Eintrag</h1>
+                <div class="col-5">
+                    <div class="patientInput">
+                        <h1>Neuer Eintrag</h1>
+
+                        <div class="formContainer">
+                            <form class="form">
+                                <div class="grouped">
+                                    <input type="number" name="size" id="size">
+                                    <a class="cm2">cm²</a>
+                                </div>
+                                <label for="size">Wundgröße</label>
+
+                                <div class="grouped">
+                                    <input type="text" name="name" id="name">
+                                </div>
+                                <label for="name">Patienten Name</label>
+
+                                <div class="button">
+                                    <button class="btn btn-add" type="submit">Eintrag hinzufügen</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
     </body>
 </html>
