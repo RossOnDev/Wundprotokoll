@@ -1,0 +1,93 @@
+body{
+    background-color: #004B50;
+}
+
+.main{
+    margin: 0;
+    max-width: 99%;
+}
+
+.patientList{
+    padding: 20px 100px;
+    background-color: rgba(57, 57, 57, .3);
+    height: 132%;
+}
+
+.patientInput {
+    padding: 20px 100px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Poppins ExtraLight', sans-serif;
+}
+
+.grouped{
+    border: solid transparent;
+    border-bottom-color: white;
+}
+
+.formContainer{
+    width: 420px;
+    margin-top: 30%;
+}
+
+.cm2{
+    color: white !important;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+label{
+    font-size: 25px;
+    font-family: "Segoe UI Semilight", sans-serif;
+    padding-left: 10px;
+    color: white;
+}
+
+input{
+    margin-top: 70px;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    border: 0 solid;
+}
+
+input:focus{
+    outline: none;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .cm2 {
+    position: absolute;
+    margin: 10px;
+    pointer-events: none;
+}
+
+.right-addon .cm2  { right:  5px;}
+
+.btn-add{
+    background-color: #00BE72;
+    font-family: "Segoe UI", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 70px;
+    color: white;
+    border-radius: 22px;
+    padding: 10px 20px;
+}
+
+.table{
+    margin-top: 50px
+}
+
+.thead-custom{
+    background-color: #00BE72;
+    color: white;
+}

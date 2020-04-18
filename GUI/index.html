@@ -6,26 +6,28 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="style/style.css">
-        <script type="test/javascript" src="/eel.js"></script>
-        <script type="test/javascript" src="/main.js"></script>
     </head>
     <body>
+       <script src="main.js"></script>
+       <script src="eel.js"></script>
         <div class="main">
             <div class="row">
                 <div class="col-7">
                     <div class="patientList">
                         <h1>Patientenliste</h1>
 
+                        <p id="test"></p>
+
                         <table class="table">
                             <thead class="thead-custom">
                                 <tr>
-                                    <th style="text-align: center">#</th>
+                                    <th class="text-align-center">#</th>
                                     <th>Name</th>
-                                    <th style="text-align: center">cm²</th>
-                                    <th style="text-align: center">Diff</th>
+                                    <th class="text-align-center">cm²</th>
+                                    <th class="text-align-center">Diff</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody id="tbody">
 
                             </tbody>
                         </table>
@@ -58,6 +60,5 @@
                 </div>
             </div>
         </div>
-
     </body>
 </html>

@@ -1,5 +1,7 @@
 body{
     background-color: #004B50;
+    width: 1503px;
+    height: 800px;
 }
 
 .main{
@@ -10,7 +12,7 @@ body{
 .patientList{
     padding: 20px 100px;
     background-color: rgba(57, 57, 57, .3);
-    height: 132%;
+    height: 800px;
 }
 
 .patientInput {
@@ -90,4 +92,13 @@ input:focus{
 .thead-custom{
     background-color: #00BE72;
     color: white;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.table-data{
+    color: white;
+    background-color: #007a4f;
 }
